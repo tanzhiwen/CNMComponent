@@ -15,6 +15,7 @@
 		6331181C20D2061900139718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331181B20D2061900139718 /* main.m */; };
 		6331182620D2061900139718 /* CNMComponmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331182520D2061900139718 /* CNMComponmentTests.m */; };
 		6331183120D2061900139718 /* CNMComponmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331183020D2061900139718 /* CNMComponmentUITests.m */; };
+		F3A0E6CE12246BA9609947DA /* Pods_CNMComponment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F79F5293A9521C82F10AB1 /* Pods_CNMComponment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40F79F5293A9521C82F10AB1 /* Pods_CNMComponment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNMComponment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C98772A61126C1B492C361 /* Pods-CNMComponment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNMComponment.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNMComponment/Pods-CNMComponment.release.xcconfig"; sourceTree = "<group>"; };
 		6331180920D2061700139718 /* CNMComponment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNMComponment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6331180C20D2061700139718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6331180D20D2061700139718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		6331182C20D2061900139718 /* CNMComponmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNMComponmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6331183020D2061900139718 /* CNMComponmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNMComponmentUITests.m; sourceTree = "<group>"; };
 		6331183220D2061900139718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B1F1B95D887FD392714E36 /* Pods-CNMComponment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNMComponment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNMComponment/Pods-CNMComponment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A0E6CE12246BA9609947DA /* Pods_CNMComponment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A1340B61F09B44D39EE77E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B1F1B95D887FD392714E36 /* Pods-CNMComponment.debug.xcconfig */,
+				58C98772A61126C1B492C361 /* Pods-CNMComponment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FE2BBBCD1172EE2360FE100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F79F5293A9521C82F10AB1 /* Pods_CNMComponment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6331180020D2061700139718 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				6331182420D2061900139718 /* CNMComponmentTests */,
 				6331182F20D2061900139718 /* CNMComponmentUITests */,
 				6331180A20D2061700139718 /* Products */,
+				03A1340B61F09B44D39EE77E /* Pods */,
+				0FE2BBBCD1172EE2360FE100 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6331183520D2061900139718 /* Build configuration list for PBXNativeTarget "CNMComponment" */;
 			buildPhases = (
+				028F0C8257E10DB98BC68AD5 /* [CP] Check Pods Manifest.lock */,
 				6331180520D2061700139718 /* Sources */,
 				6331180620D2061700139718 /* Frameworks */,
 				6331180720D2061700139718 /* Resources */,
+				C18E0C2E377BDB8FB84AA2B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		028F0C8257E10DB98BC68AD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNMComponment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C18E0C2E377BDB8FB84AA2B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CNMComponment/Pods-CNMComponment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CNMComponment/Pods-CNMComponment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6331180520D2061700139718 /* Sources */ = {
@@ -431,6 +496,7 @@
 		};
 		6331183620D2061900139718 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B1F1B95D887FD392714E36 /* Pods-CNMComponment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +514,7 @@
 		};
 		6331183720D2061900139718 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C98772A61126C1B492C361 /* Pods-CNMComponment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
