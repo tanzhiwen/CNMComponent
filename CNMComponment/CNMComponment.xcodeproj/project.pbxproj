@@ -15,7 +15,6 @@
 		6331181C20D2061900139718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331181B20D2061900139718 /* main.m */; };
 		6331182620D2061900139718 /* CNMComponmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331182520D2061900139718 /* CNMComponmentTests.m */; };
 		6331183120D2061900139718 /* CNMComponmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331183020D2061900139718 /* CNMComponmentUITests.m */; };
-		633118C120D24DAF00139718 /* Testone.m in Sources */ = {isa = PBXBuildFile; fileRef = 633118C020D24DAF00139718 /* Testone.m */; };
 		F3A0E6CE12246BA9609947DA /* Pods_CNMComponment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F79F5293A9521C82F10AB1 /* Pods_CNMComponment.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +54,6 @@
 		6331182C20D2061900139718 /* CNMComponmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNMComponmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6331183020D2061900139718 /* CNMComponmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNMComponmentUITests.m; sourceTree = "<group>"; };
 		6331183220D2061900139718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		633118BF20D24DAF00139718 /* Testone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testone.h; sourceTree = "<group>"; };
-		633118C020D24DAF00139718 /* Testone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Testone.m; sourceTree = "<group>"; };
 		72B1F1B95D887FD392714E36 /* Pods-CNMComponment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNMComponment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNMComponment/Pods-CNMComponment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,8 +160,6 @@
 		633118BE20D24DA200139718 /* RRCache */ = {
 			isa = PBXGroup;
 			children = (
-				633118BF20D24DAF00139718 /* Testone.h */,
-				633118C020D24DAF00139718 /* Testone.m */,
 			);
 			path = RRCache;
 			sourceTree = SOURCE_ROOT;
@@ -342,7 +337,6 @@
 			files = (
 				6331181120D2061700139718 /* ViewController.m in Sources */,
 				6331181C20D2061900139718 /* main.m in Sources */,
-				633118C120D24DAF00139718 /* Testone.m in Sources */,
 				6331180E20D2061700139718 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
